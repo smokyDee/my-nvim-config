@@ -1,0 +1,14 @@
+{
+  "prettier.enable": true,
+  "prettier.tabWidth": 3,
+  "prettier.useTabs": true,
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  }
+}
+
